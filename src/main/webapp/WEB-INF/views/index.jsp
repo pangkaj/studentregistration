@@ -9,8 +9,10 @@
 	<center>
 		<h2>Hello World</h2>
 		<h3>
-			<a href="hello?name=Sadh">Click Here</a>
-			<a href="students">Click Here to see all students..</a>
+		<ul>
+		<li><a href="hello?name=Sadh">Click Here</a></li>
+		<li><a href="students">Click Here to see all students..</a></li>
+		</ul>
 		</h3>
 	</center>
 </body>
