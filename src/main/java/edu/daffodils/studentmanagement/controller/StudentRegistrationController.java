@@ -32,4 +32,10 @@ public class StudentRegistrationController {
 		mv.addObject("students", studentList);
 		return mv;
 	}
+	
+	@RequestMapping("/")
+	public ModelAndView showIndex() {
+		ModelAndView mv = new ModelAndView("index");
+		return mv;
+	}
 }
